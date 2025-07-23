@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://entupiunaoquebre.com.br/sitemap.xml
+
+# Principais páginas para rastreamento
+Allow: /index.html
+Allow: /cidades.html
+Allow: /desentupimento-esgoto.html
+Allow: /desentupimento-pia.html
+Allow: /desentupimento-vaso.html
+Allow: /desentupimento-ralo.html
+Allow: /limpeza-caixa-gordura.html
+
+# Permitir rastreamento de recursos
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+
+# Crawl-delay para não sobrecarregar o servidor
+Crawl-delay: 1
+
